@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Local Weather</title>
+		<link rel="stylesheet" href="lib/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<h1 class="good-morning">Good Morning</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 text-center">
+					<h1 class="your-location">What's the weather like today?</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5">
+					<div class="form-group form-group-lg" id="zip-input">
+						<input type="text" class="form-control " id="exampleInputEmail1" placeholder="ZIP Code">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5 text-center">
+					<button id="submit-button" class="btn btn-lg btn-outline-secondary" type="button">Submit</button>
+				</div>
+			</div>
+			<div class="row" id="options-display">
+			</div>
+			<div class="row" id="weather-display">
+			</div>
+		</div>
+		<script src="lib/bower_components/jquery/dist/jquery.js"></script>
+		<script src="lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="javascripts/main.js"></script>
+	</body>
+</html>

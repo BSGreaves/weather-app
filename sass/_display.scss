@@ -1,0 +1,35 @@
+@import "fonts";
+
+body {
+	background-size: cover;
+    background-image: url("/images/sunset.jpg");
+}
+
+.good-morning {
+	color: white;
+	padding-top: 150px;
+	font-family: 'Pacifico', cursive;
+	font-size: 6em;
+	opacity: 1;
+}
+
+.your-location {
+	color: white;
+	padding-top: 130px;
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	opacity: 1;
+}
+
+#zip-input {
+	opacity: 0.8;
+	font-size: 2em;
+	font-family: $josefin;
+}
+
+#submit-button {
+	font-family: $josefin;
+	background-color: white;
+	opacity: 0.7;
+	font-size: 1.6em;
+}
