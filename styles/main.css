@@ -4,25 +4,41 @@ body {
 
 .good-morning {
   color: white;
-  padding-top: 150px;
+  padding-top: 100px;
   font-family: 'Pacifico', cursive;
   font-size: 6em;
   opacity: 1; }
 
 .your-location {
   color: white;
-  padding-top: 130px;
+  padding-top: 50px;
   font-family: 'Pacifico', cursive;
   font-size: 4em;
   opacity: 1; }
 
-#zip-input {
+#zip-div {
   opacity: 0.8;
   font-size: 2em;
   font-family: "Josefin Sans", sans-serif; }
 
+#zip-input {
+  width: 150px;
+  margin: 0 auto; }
+
 #submit-button {
   font-family: "Josefin Sans", sans-serif;
   background-color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 1.6em; }
+
+#weather-selection {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Josefin Sans", sans-serif; }
+
+.weather-option {
+  opacity: 0.8;
+  font-size: 1.6em; }
+
+.active {
+  font-size: bold; }

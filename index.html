@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="styles/main.css">
 	</head>
 	<body>
-		<div class="container">
+		<div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12 text-center">
 					<h1 class="good-morning">Good Morning</h1>
@@ -24,8 +24,8 @@
 			</div>
 			<div class="row">
 				<div class="col-md-2 col-md-offset-5">
-					<div class="form-group form-group-lg" id="zip-input">
-						<input type="text" class="form-control " id="exampleInputEmail1" placeholder="ZIP Code">
+					<div class="form-group form-group-lg text-center" id="zip-div">
+						<input type="text" value="37211" class="form-control" id="zip-input" placeholder="Your 5 Digit ZIP" pattern="[0-9]{5}">
 					</div>
 				</div>
 			</div>
@@ -39,8 +39,12 @@
 			<div class="row" id="weather-display">
 			</div>
 		</div>
+		<script src="lib/node_modules/moment/moment.js"></script>
 		<script src="lib/bower_components/jquery/dist/jquery.js"></script>
 		<script src="lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="javascripts/main.js"></script>
 	</body>
 </html>
+
+
+
