@@ -31,7 +31,7 @@ body {
   opacity: 0.8;
   font-size: 1.6em; }
 
-#weather-selection {
+#weather-selection, .alert-box {
   margin-top: 15px;
   margin-bottom: 15px;
   font-family: "Josefin Sans", sans-serif; }
@@ -42,3 +42,7 @@ body {
 
 .active {
   font-size: bold; }
+
+.forecastTable {
+  background-color: white;
+  font-family: "Josefin Sans", sans-serif; }
